@@ -2,9 +2,9 @@
 
 This is the Code and data supplemented with the following publications:
 
-"Vehicle Position Estimation with Aerial Imagery from Unmanned Aerial Vehicles" (1) \
-"Accuracy Characterization of the Vehicle State Estimation from Aerial Imagery" (2)\
-Both are published at the [2020 IEEE Intelligent Vehicles Symposium (IV)](https://2020.ieee-iv.org/).
+* [Vehicle Position Estimation with Aerial Imagery from Unmanned Aerial Vehicles](http://arxiv.org/abs/2004.08206) (1)
+* Accuracy Characterization of the Vehicle State Estimation from Aerial Imagery (2)\
+* Both are published at the [2020 IEEE Intelligent Vehicles Symposium (IV)](https://2020.ieee-iv.org/).
 
 
 The repository includes:
@@ -60,7 +60,7 @@ For further information check the publications.
 
 ![Paper Image2](assets/figure_results_both_publications.png)	
 
-Here is detailed Table with more results from publication (1): \
+Here is a detailed Table with position error results from publication (1): \
 ![Paper Image](assets/table_results.png)
 
 # Getting started
@@ -88,7 +88,9 @@ It includes the tracking (vehicle ID assignment, Kalman-Filter) and outputs the 
 3. Download pre-trained COCO weights from the ![Matterport releases page](https://github.com/matterport/Mask_RCNN/releases). Choose `Mask R-CNN 2.0` and click on `Assets` to download the weights (mask_rcnn_coco.h5).
 
 # Example data and training weights
-Download the data  hosted on the [FAU University](https://www.fau.eu/) server: 
+One example video is already included in this repository ([DJI_0029_example.mp4](datasets/vehicle_detection)). The [main.m](samples/vehicle_detection/) script is set to this video.
+For further data, i.e. pre-trained weights, the labeled data of the test vehicle or one complete video from the paper data set,
+download the data  hosted on the [FAU University](https://www.fau.eu/) server: 
 * [Example Video Frames from Publication (1)](https://faubox.rrze.uni-erlangen.de/getlink/fiU4TAFUx95npBKD9YQxYbai/IEEE_IV_2020_images_example.zip) 
 * [Labeled training data set](https://faubox.rrze.uni-erlangen.de/getlink/fi2x2oaNQfM55UgBP2YBB6Vp/IEEE_IV_2020_LabelData_only_A4.zip)
 * [Weights, trained on Full HD with 791 images](https://faubox.rrze.uni-erlangen.de/getlink/fi9eQZnv9iotEBsBUHN17j6z/mask_rcnn_car_0400_791imgs_200312.h5)
@@ -138,7 +140,7 @@ To cite the this repository:
 @misc{KruberGithub.2020,
  author = {{F. Kruber} and E. {Sanchéz Morales}},
  date = {2020},
- title = {{Vehicle Detection and State Estimation with Aerial Imagery}},
+ title = {{OpenTrafficMonitoring}},
  journal={GitHub repository},
  url = {\url{https://github.com/fkthi}}
 }
