@@ -17,18 +17,18 @@ USAGE: Run from Matlab File or directly via:
     # Train a new model starting from pre-trained COCO weights
     # Windows delimiters are used 
     python vehDetection.py train --dataset=C:\\Mask_RCNN\\datasets\\vehDetection --weights=coco   # Create the subfolder "C:\\Mask_RCNN\\datasets\\vehDetection\\train" and place training data there
-    python vehDetection.py train --dataset=C:\\Mask_RCNN\\datasets\\vehDetection --weights=C:\Mask_RCNN\logs\mask_rcnn_car_0300_onlyA4_196img_191222.h5  # Create the subfolder "C:\\Mask_RCNN\\datasets\\vehDetection\\train" and place training data there
+    python vehDetection.py train --dataset=C:\\Mask_RCNN\\datasets\\vehDetection --weights=Link\To\Weights.h5
 
     # Resume training a model that you had trained earlier
     python vehDetection.py train --dataset=C:\\Mask_RCNN\\datasets\\vehDetection --weights=last
-    python vehDetection.py train --dataset=C:\\Mask_RCNN\\datasets\\vehDetection --weights=mask_rcnn_car_0300_onlyA4_196img_191222.h5
+    python vehDetection.py train --dataset=C:\\Mask_RCNN\\datasets\\vehDetection --weights=Link\To\Weights.h5
 
     # Train a new model starting from ImageNet weights
     python vehDetection.py train --dataset=/path/to/vehDetection/dataset --weights=imagenet
 
     # Detection  (also Creates JPEGs with marked Shapes 
-	python vehDetection.py detect --dataset=C:\\Mask_RCNN\\datasets\\vehDetection --subset=detect --weights=C:\Mask_RCNN\logs\mask_rcnn_car_0300_onlyA4_196img_191222.h5
-	python vehDetection.py detect --dataset=C:\\Mask_RCNN\\datasets\\vehDetection --subset=From_Above_Footage_Of_Vehicular_Traffic_On_A_Busy_Street_Intersection_In_The_City_At_Night_[1080p]\\registered --weights=C:\Mask_RCNN\logs\mask_rcnn_car_0400_791imgs_200312.h5
+	python vehDetection.py detect --dataset=C:\\Mask_RCNN\\datasets\\vehDetection --subset=detect --weights=last # --weights=Link\To\Weights.h5
+
     
 """
 

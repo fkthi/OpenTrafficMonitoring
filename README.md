@@ -3,8 +3,8 @@
 This is the Code and data supplemented with the following publications:
 
 * [Vehicle Position Estimation with Aerial Imagery from Unmanned Aerial Vehicles](http://arxiv.org/abs/2004.08206) (1)
-* Accuracy Characterization of the Vehicle State Estimation from Aerial Imagery (2)\
-* Both are published at the [2020 IEEE Intelligent Vehicles Symposium (IV)](https://2020.ieee-iv.org/).
+* Accuracy Characterization of the Vehicle State Estimation from Aerial Imagery (2)
+* Both are published at the [2020 IEEE Intelligent Vehicles Symposium (IV)](https://2020.ieee-iv.org/)
 
 
 The repository includes:
@@ -15,7 +15,7 @@ The repository includes:
 * Data to evaluate the benchmark peformed against an industrial-grade reference sensor (see publications)
 * Plot results: Visualize the bounding boxes and state variables on the images and crate a video
 * Description and example on how to apply transfer learning to improve your data set results
-* Example data used for the publications, see below \
+* Example data used for the publications, see below 
 
 ### Here is one example from the benchmark experiments:
 
@@ -85,7 +85,8 @@ It includes the tracking (vehicle ID assignment, Kalman-Filter) and outputs the 
     ```
     python setup.py install
     ``` 
-3. Download pre-trained COCO weights from the ![Matterport releases page](https://github.com/matterport/Mask_RCNN/releases). Choose `Mask R-CNN 2.0` and click on `Assets` to download the weights (mask_rcnn_coco.h5).
+4. Download our [weights](https://faubox.rrze.uni-erlangen.de/getlink/fi9eQZnv9iotEBsBUHN17j6z/mask_rcnn_car_0400_791imgs_200312.h5) and store them in the [logs](logs) folder.
+5. Optional: Download pre-trained COCO weights from the ![Matterport releases page](https://github.com/matterport/Mask_RCNN/releases). Choose `Mask R-CNN 2.0` and click on `Assets` to download the weights (mask_rcnn_coco.h5). This is useful, if you want to start your own training from the coco weights.
 
 # Example data and training weights
 One example video is already included in this repository ([DJI_0029_example.mp4](datasets/vehicle_detection)). The [main.m](samples/vehicle_detection/) script is set to this video.
