@@ -139,17 +139,6 @@ Don't forget to copy your data in the evaluation folder and adapt the training w
 To cite the this repository:
 ```
 @misc{KruberGithub.2020,
- author = {{F. Kruber} and E. {Sanchéz Morales}},
- date = {2020},
- title = {{OpenTrafficMonitoring}},
- journal={GitHub repository},
- url = {\url{https://github.com/fkthi}}
-}
-```
-
-To cite the this repository:
-```
-@misc{KruberGithub.2020,
  author = {{F. Kruber} and E. {S\'{a}nchez Morales}},
  date = {2020},
  title = {{OpenTrafficMonitoring}},
