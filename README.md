@@ -147,10 +147,21 @@ To cite the this repository:
 }
 ```
 
+To cite the this repository:
+```
+@misc{KruberGithub.2020,
+ author = {{F. Kruber} and E. {S\'{a}nchez Morales}},
+ date = {2020},
+ title = {{OpenTrafficMonitoring}},
+ journal={GitHub repository},
+ url = {\url{https://github.com/fkthi}}
+}
+```
+
 To cite our publications:
 ```
 @INPROCEEDINGS{KruberIV20,
-author={F. {Kruber} and E. {Sanchéz Morales} and S. {Chakraborty} and M. {Botsch}},
+author={F. {Kruber} and E. {S\'{a}nchez Morales} and S. {Chakraborty} and M. {Botsch}},
 booktitle={2020 IEEE Intelligent Vehicles Symposium (IV)},
 title={{Vehicle Position Estimation with Aerial Imagery from Unmanned Aerial Vehicles}},
 year={2020}
@@ -158,7 +169,7 @@ year={2020}
 ```
 ```
 @INPROCEEDINGS{SanchezMoralesIV20,
-author={E. {Sanchéz Morales} and F. {Kruber} and M. {Botsch} and B. {Huber} and  A. {García Higuera}},
+author={E. {S\'{a}nchez Morales} and F. {Kruber} and M. {Botsch} and B. {Huber} and  A. {Garc{\'i}a Higuera}},
 booktitle={2020 IEEE Intelligent Vehicles Symposium (IV)},
 title={{Accuracy Characterization of the Vehicle State Estimation from Aerial Imagery}},
 year={2020}
