@@ -1,3 +1,8 @@
+# Open Traffic Monitoring+ Released
+We recommend to use [OpenTrafficMonitoring+](https://github.com/fkthi/OpenTrafficMonitoringPlus):
+* It's a lot faster and has less hardware requirements
+* It's completeley written in Python 
+
 # Vehicle Detection and State Estimation with Aerial Imagery
 
 This is the Code and data supplemented with the following publications:
