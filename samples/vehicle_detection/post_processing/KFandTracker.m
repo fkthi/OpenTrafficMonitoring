@@ -275,7 +275,7 @@ end
             kf.CarMass = 0;
             %%initializing the state vector and system covariance matrix
             kf.XOld=zeros(8,1);
-            kf.SystemCovarianceMatrix=eye(size(kf.XOld,1))*0.00001;
+            kf.SystemCovarianceMatrix=eye(size(kf.XOld,1));
             kf.SystemCovarianceMatrix(7,7) = kf.SystemCovarianceMatrix(7,7)*0.0001; %high damp initial orientation
             kf.X=nan(8,size(boxesRotCell,2));
             kf.E=nan(6,size(boxesRotCell,2));
